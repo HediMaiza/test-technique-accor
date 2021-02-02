@@ -2,11 +2,41 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Test technique</title>
+    <title>Test technique - Mohamed Hedi Maiza</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 <body>
-    <!-- Les images et logos sont disponibles dans ./resources -->
-    <img src="./resources/hotel.jpg"/>
+    <main>
+        <ul role="list">
+            <li class="card" role="listitem">
+                <div class="hotel-img"><img src="./resources/hotel.jpg" alt="" loading="lazy" class="hotel-img__image" /></div>
+                <div class="hotel-description">
+                    <h2 class="is-2">Novotel Paris Les Halles<span class="hotel-stars hotel-stars-4" aria-label="4 étoiles sur 5"></span></h2>
+                    <div class="hotel-localisation">Hôtels - 0.6 km de votre recherche</div>
+                    <p class="hotel-avis">
+                        <img src="./resources/tripadvisor.png" aria-hidden="true" alt="tripadvisor rate" />
+                        <span class="bold">4/5</span> (<a href="#">5564 Avis</a>)
+                    </p>
+                    <div class="hotel-services">
+                        <img src="./resources/parking.svg" aria-hidden="true" alt="" />
+                        <img src="./resources/wifi.svg" aria-hidden="true" alt="" />
+                        <img src="./resources/restaurant.svg" aria-hidden="true" alt="" />
+                        <img src="./resources/air-conditioning.svg" aria-hidden="true" alt="" />
+                        <img src="./resources/beverage.svg" aria-hidden="true" alt="" />
+                    </div>
+                    <div class="hotel-price">
+                        <div class="hotel-title">Tarif à partir de (1)</div>
+                        <p>Pour 1 nuit | 1 adulte</p>
+                        <p>Public <span class="bold">220 <small>€</small></span> | <span class="hotel-price__members">Membre <span class="bold">180 <small>€</small></span></span></p>
+                    </div>
+                    <div class="hotel-more">
+                        <a href="#" class="link">Voir le calendrier des prix</a>
+                        <button type="type" class="button" aria-live="polite" aria-label="Séléctionner une chambre">Sélectionner une chambre</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="app.js" defer></script>
 </body>
 </html>

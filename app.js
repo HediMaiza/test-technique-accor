@@ -4,8 +4,7 @@ const priceService = require('./services/price-service');
 const helper = require('./services/helper');
 
 function findHotelsNearby(lat, lng, radius) {
-    // TODO implement me
-	return [];
+    
 }
 
 function findHotelNearbyWithBestOffer(lat, lng, radius, date) {
